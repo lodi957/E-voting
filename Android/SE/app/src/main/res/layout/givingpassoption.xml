@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_giving_pass_option"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginBottom="10dp">
+        <com.joanzapata.iconify.widget.IconTextView
+            android:id="@+id/iconlock2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="{fa-lock #062136}"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundicons"
+            android:textSize="23sp"
+            android:paddingRight="14dp"
+            android:paddingTop="13.5dp"
+            android:paddingBottom="12dp"
+            android:paddingLeft="14dp"/>
+
+        <EditText
+            android:id="@+id/newPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Change Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="-4sp"
+
+            android:background="@drawable/roundeditstates"
+            android:padding="10dp"
+
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginBottom="20dp">
+        <com.joanzapata.iconify.widget.IconTextView
+            android:id="@+id/iconlock3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="{fa-lock #062136}"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundicons"
+            android:textSize="23sp"
+            android:paddingRight="14dp"
+            android:paddingTop="13.5dp"
+            android:paddingBottom="12dp"
+            android:paddingLeft="14dp"/>
+
+        <EditText
+            android:id="@+id/reNewPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Retype Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="-4sp"
+
+            android:background="@drawable/roundeditstates"
+            android:padding="10dp"
+
+
+            />
+    </LinearLayout>
+    <Button
+        android:onClick="SubmitPass"
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        android:layout_marginLeft="20dp"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/buttonshape"
+        android:textColor="@color/yellow"
+
+        />
+</LinearLayout>
+
+
+

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "285484624972",
+    "firebase_url": "https://evoting-56900.firebaseio.com",
+    "project_id": "evoting-56900",
+    "storage_bucket": "evoting-56900.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285484624972:android:36afbf2209bf9a0f",
+        "android_client_info": {
+          "package_name": "com.se.httpwww.se"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285484624972-c927r15rni2gakundl3h0382nsc2iokd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.se.httpwww.se",
+            "certificate_hash": "c4919d12b932be317085669b3c0d099bf7f166fe"
+          }
+        },
+        {
+          "client_id": "285484624972-5ko45nn5ff3i2qvoeo4mhcs932k240pd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTqO7S7vRCEJ3mbfMQ5hZTLDfVGwfsyvw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285484624972-5ko45nn5ff3i2qvoeo4mhcs932k240pd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/rl"
+    android:background="@color/background"
+    tools:context="com.se.httpwww.se.Login">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+
+    <com.joanzapata.iconify.widget.IconTextView
+        android:id="@+id/iconuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="{fa-user #062136}"
+        android:layout_marginLeft="20dp"
+        android:textSize="28sp"
+        android:layout_below="@+id/logo"
+        android:padding="10dp"
+        android:background="@drawable/roundicons"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:padding="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@+id/iconuser"
+        android:layout_below="@+id/logo"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/roundeditstates"/>
+
+
+    <com.joanzapata.iconify.widget.IconTextView
+        android:id="@+id/iconpas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="{fa-key #062136}"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/roundicons"
+        android:textSize="27sp"
+        android:paddingRight="2dp"
+        android:layout_below="@+id/username"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pas"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/username"
+        android:layout_toRightOf="@+id/iconpas"
+        android:background="@drawable/roundeditstates"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/tvforget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Your Password?"
+        android:layout_below="@id/password1"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/main"/>
+
+
+    <Button
+        android:id="@+id/btlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/signin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/tvforget"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        android:layout_marginLeft="20dp"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/buttonshape"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:layout_below="@id/btlogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/main"/>
+
+</RelativeLayout>
+
